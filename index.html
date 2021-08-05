@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,10 +10,7 @@
         type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="javascript/jquery.min.js"></script>
-    <script type="text/javascript" src="javascript/move-top.js"></script>
-    <script type="text/javascript" src="javascript/easing.js"></script>
+
     <script type="text/javascript">
         jQuery(document).ready(function ($) {
             $(".scroll").click(function (event) {
@@ -22,7 +20,77 @@
         });
     </script>
 </head>
+
 <body>
-    
+    <!-- start header/hero section -->
+    <div class="header" id="head">
+        <div class="container">
+            <!-- header -->
+            <div class="header-top">
+                <div class="logo">
+                    <a href="/">
+                        <h2>Victor Lupascu</h2>
+                    </a>
+                </div>
+                <div class="top-menu">
+                    <span class="menu"> </span>
+                    <ul>
+                        <nav class="cl-effect-5">
+                            <li><a href="#about" class="scroll"><span data-hover="about">about</span></a></li>
+                            <li><a href="#work" class="scroll"><span data-hover="work"><span>work</span></a></li>
+                            <!-- <li><a href="#services" class="scroll"><span data-hover="services">services</span></a></li> -->
+                            <li><a href="#contact" class="scroll"><span data-hover="contact">contact</span></a></li>
+                        </nav>
+                    </ul>
+                </div>
+
+                <div class="clearfix"></div>
+            </div>
+            <!-- hero -->
+            <div class="index-banner">
+                <div class="wmuSlider example1">
+                    <div class="wmuSliderWrapper">
+                        <article style="position: absolute; width: 100%; opacity: 0;">
+                            <div class="banner-wrap">
+                                <div class="banner_center">
+                                    <h1>hello world,</h1>
+                                    <h2>i am full stack<span>web developer</span></h2>
+                                    <h2>with a passion for turning ideas into results.</h2>
+                                </div>
+                            </div>
+                        </article>
+                        <article style="position: relative; width: 100%; opacity: 1;">
+                            <div class="banner-wrap">
+                                <div class="banner_center">
+                                    <h1>i work on</h1>
+                                    <h2>front end<span>web design & development</span></h2>
+                                    <h2>with js, css, html, jquery, bootstrap</h2>
+                                </div>
+                            </div>
+                        </article>
+                        <article style="position: absolute; width: 100%; opacity: 0;">
+                            <div class="banner-wrap">
+                                <div class="banner_center">
+                                    <h1>i work on</h1>
+                                    <h2>backend<span>servers & databases</span></h2>
+                                    <h2>with node, express, mysql, sequelize, handlebars</h2>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </div>
+
+
+    <!-- script links -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="javascript/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="javascript/move-top.js"></script> -->
+    <!-- <script type="text/javascript" src="javascript/easing.js"></script> -->
+    <script src="javascript/jquery.wmuSlider.js"></script>
+    <script src="javascript/jquery-general.js"></script>
 </body>
+
 </html>
