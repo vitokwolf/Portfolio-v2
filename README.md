@@ -23,4 +23,4 @@ ___
 ## Questions?
 Contact Me:
 * Github: https://github.com/vitokwolf/
-* Email: sinajeen@gmail.com
+* Email: victor.lupascu.1985@gmail.com
